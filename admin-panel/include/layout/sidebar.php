@@ -23,7 +23,7 @@ $path = $_SERVER['REQUEST_URI'];
                         class="nav-link link-body-emphasis text-decoration-none d-flex align-items-center gap-2 <?= (str_contains($path, 'pages')) ? '' : 'text-secondary' ?>"
                         href="/1_php-project-blog/admin-panel/index.php">
                         <i
-                            class="bi bi-house-fill fs-4 <?= (str_contains($path, 'posts')) ? '' : 'text-secondary' ?>"></i>
+                            class="bi bi-house-fill fs-4 <?= (str_contains($path, 'pages')) ? '' : 'text-secondary' ?>"></i>
                         <span class="fw-bold">داشبورد</span>
                     </a>
                 </li>
